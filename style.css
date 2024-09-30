@@ -1,19 +1,43 @@
 /* style.css */
 
-* {
+body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
 }
 
 a {
-    color:brown;
+    color:rgb(195, 49, 49);
     text-decoration: none;
 }
 
 a:hover {
-    color:#8a3324;
+    color:#702619;
 }
 
 img {
     height: auto;
     width: 300px;
+}
+
+.card {
+    background-color: #fff;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.title {
+    background-color: #fff;
+    text-align: center;
+}
+
+.choices {
+    background-color: #fff;
+    display: flex;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+
+.list {
+    padding-left: 25px;
 }
